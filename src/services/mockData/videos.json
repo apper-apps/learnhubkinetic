@@ -1,0 +1,97 @@
+[
+  {
+    "Id": 1,
+    "title": "React 기초부터 실전까지",
+    "description": "React의 기본 개념부터 실무에서 사용하는 고급 패턴까지 체계적으로 학습합니다. 컴포넌트, 상태 관리, 라이프사이클을 완벽하게 이해하고 실제 프로젝트에 적용해보세요.",
+    "mainVideoUrl": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+    "thumbnailUrl": "",
+    "section": "membership",
+    "curriculumLinks": [
+      "https://youtube.com/watch?v=abc123",
+      "https://youtube.com/watch?v=def456",
+      "https://youtube.com/watch?v=ghi789"
+    ],
+    "allowedRoles": ["member", "both"],
+    "isPinned": true,
+    "createdAt": "2024-01-15T09:00:00Z"
+  },
+  {
+    "Id": 2,
+    "title": "JavaScript ES6+ 완벽 가이드",
+    "description": "최신 JavaScript의 모든 기능을 심화 학습합니다. 화살표 함수, 구조 분해, 모듈 시스템 등 현대 JavaScript 개발에 필수적인 모든 내용을 다룹니다.",
+    "mainVideoUrl": "https://youtube.com/watch?v=xyz789",
+    "thumbnailUrl": "",
+    "section": "membership",
+    "curriculumLinks": [
+      "https://youtube.com/watch?v=jkl012",
+      "https://youtube.com/watch?v=mno345"
+    ],
+    "allowedRoles": ["free", "member", "both"],
+    "isPinned": false,
+    "createdAt": "2024-01-20T14:30:00Z"
+  },
+  {
+    "Id": 3,
+    "title": "Node.js 백엔드 개발 마스터",
+    "description": "Express.js를 활용한 REST API 개발부터 데이터베이스 연동, 인증/인가 시스템 구축까지. 실무에서 바로 적용 가능한 백엔드 개발 스킬을 습득하세요.",
+    "mainVideoUrl": "https://youtube.com/watch?v=backend123",
+    "thumbnailUrl": "",
+    "section": "master",
+    "curriculumLinks": [
+      "https://youtube.com/watch?v=api001",
+      "https://youtube.com/watch?v=db002",
+      "https://youtube.com/watch?v=auth003",
+      "https://youtube.com/watch?v=deploy004"
+    ],
+    "allowedRoles": ["master", "both"],
+    "isPinned": true,
+    "createdAt": "2024-01-10T11:15:00Z"
+  },
+  {
+    "Id": 4,
+    "title": "고급 시스템 아키텍처 설계",
+    "description": "대규모 서비스를 위한 시스템 아키텍처 설계 원칙과 패턴을 학습합니다. 마이크로서비스, 이벤트 드리븐 아키텍처, 분산 시스템의 핵심을 이해하세요.",
+    "mainVideoUrl": "https://youtube.com/watch?v=architecture456",
+    "thumbnailUrl": "",
+    "section": "master",
+    "curriculumLinks": [
+      "https://youtube.com/watch?v=micro001",
+      "https://youtube.com/watch?v=event002",
+      "https://youtube.com/watch?v=scalability003"
+    ],
+    "allowedRoles": ["master", "both"],
+    "isPinned": false,
+    "createdAt": "2024-01-25T16:45:00Z"
+  },
+  {
+    "Id": 5,
+    "title": "CSS 애니메이션과 고급 스타일링",
+    "description": "CSS Grid, Flexbox부터 고급 애니메이션 기법까지. 사용자 경험을 향상시키는 인터랙티브한 웹 인터페이스를 만들어보세요.",
+    "mainVideoUrl": "https://youtube.com/watch?v=css789",
+    "thumbnailUrl": "",
+    "section": "membership",
+    "curriculumLinks": [
+      "https://youtube.com/watch?v=grid001",
+      "https://youtube.com/watch?v=animation002"
+    ],
+    "allowedRoles": ["free", "member", "both"],
+    "isPinned": false,
+    "createdAt": "2024-02-01T10:20:00Z"
+  },
+  {
+    "Id": 6,
+    "title": "클라우드 네이티브 개발",
+    "description": "Docker, Kubernetes를 활용한 컨테이너 기반 개발과 배포 전략을 마스터하세요. 현대적인 DevOps 환경에서의 개발 프로세스를 완전히 이해합니다.",
+    "mainVideoUrl": "https://youtube.com/watch?v=cloud123",
+    "thumbnailUrl": "",
+    "section": "master",
+    "curriculumLinks": [
+      "https://youtube.com/watch?v=docker001",
+      "https://youtube.com/watch?v=k8s002",
+      "https://youtube.com/watch?v=cicd003"
+    ],
+    "allowedRoles": ["master", "both"],
+    "isPinned": false,
+    "createdAt": "2024-02-05T13:10:00Z"
+  }
+]

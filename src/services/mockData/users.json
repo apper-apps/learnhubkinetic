@@ -1,0 +1,65 @@
+[
+  {
+    "Id": 1,
+    "name": "김개발자",
+    "email": "kim.dev@example.com",
+    "role": "member",
+    "createdAt": "2024-01-01T09:00:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "이학습자",
+    "email": "lee.learner@example.com",
+    "role": "free",
+    "createdAt": "2024-01-05T14:30:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "박신입",
+    "email": "park.junior@example.com",
+    "role": "member",
+    "createdAt": "2024-01-10T11:15:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "정프론트",
+    "email": "jung.frontend@example.com",
+    "role": "both",
+    "createdAt": "2024-01-12T16:45:00Z"
+  },
+  {
+    "Id": 5,
+    "name": "최백엔드",
+    "email": "choi.backend@example.com",
+    "role": "master",
+    "createdAt": "2024-01-15T08:20:00Z"
+  },
+  {
+    "Id": 6,
+    "name": "한풀스택",
+    "email": "han.fullstack@example.com",
+    "role": "both",
+    "createdAt": "2024-01-18T13:10:00Z"
+  },
+  {
+    "Id": 7,
+    "name": "윤취준생",
+    "email": "yoon.jobseeker@example.com",
+    "role": "free",
+    "createdAt": "2024-01-20T10:55:00Z"
+  },
+  {
+    "Id": 8,
+    "name": "강개발팀장",
+    "email": "kang.teamlead@example.com",
+    "role": "master",
+    "createdAt": "2024-01-22T15:30:00Z"
+  },
+  {
+    "Id": 9,
+    "name": "관리자",
+    "email": "admin@learnhub.pro",
+    "role": "admin",
+    "createdAt": "2024-01-01T00:00:00Z"
+  }
+]

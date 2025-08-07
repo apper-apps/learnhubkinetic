@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'react-toastify/dist/ReactToastify.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Spoqa Han Sans Neo', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFFFF;
+}
+
+.Toastify__toast-container {
+  z-index: 9999;
+}
+
+.Toastify__toast {
+  border-radius: 12px;
+  font-family: 'Spoqa Han Sans Neo', sans-serif;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #10B981, #059669);
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #EF4444, #DC2626);
+}
+
+.Toastify__toast--info {
+  background: linear-gradient(135deg, #3B82F6, #2563EB);
+}
+
+.Toastify__progress-bar {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/* Rich text editor styles */
+.rich-editor {
+  min-height: 200px;
+  border: 1px solid #E5E7EB;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: 'Spoqa Han Sans Neo', sans-serif;
+}
+
+.rich-editor:focus {
+  outline: none;
+  border-color: #4F46E5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+.rich-editor h1 { font-size: 2rem; font-weight: 700; margin: 1rem 0; }
+.rich-editor h2 { font-size: 1.5rem; font-weight: 600; margin: 0.875rem 0; }
+.rich-editor h3 { font-size: 1.25rem; font-weight: 500; margin: 0.75rem 0; }
+.rich-editor p { margin: 0.5rem 0; line-height: 1.6; }
+.rich-editor ul, .rich-editor ol { margin: 0.5rem 0; padding-left: 1.5rem; }
+.rich-editor li { margin: 0.25rem 0; }
+.rich-editor strong { font-weight: 600; }
+.rich-editor em { font-style: italic; }
+.rich-editor blockquote {
+  border-left: 4px solid #E5E7EB;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  font-style: italic;
+  color: #6B7280;
+}
+
+/* Video player responsive */
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+}
+
+/* Curriculum accordion */
+.curriculum-item.active {
+  background: linear-gradient(135deg, #EEF2FF, #F3E8FF);
+  border-left: 4px solid #4F46E5;
+}
+
+/* Scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F9FAFB;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #4F46E5, #7C3AED);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #4338CA, #6D28D9);
+}
