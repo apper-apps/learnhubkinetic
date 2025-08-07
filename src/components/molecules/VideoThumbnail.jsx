@@ -43,9 +43,8 @@ const VideoThumbnail = ({
   };
 
   const videoId = getYouTubeVideoId(video.mainVideoUrl);
-  const thumbnailUrl = video.thumbnailUrl || 
-    (videoId ? `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg` : "/default-video-thumbnail.jpg");
-
+const thumbnailUrl = video.thumbnailUrl || 
+    (videoId ? `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg` : "./default-video-thumbnail.jpg");
   return (
     <Card className={cn(
       "group cursor-pointer overflow-hidden transition-all duration-300 hover:scale-[1.02]",
@@ -53,12 +52,12 @@ const VideoThumbnail = ({
     )}>
       <div className="relative" onClick={handleClick}>
         <div className="aspect-video w-full overflow-hidden">
-          <img
+<img
             src={thumbnailUrl}
             alt={video.title}
             className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
             onError={(e) => {
-              e.target.src = "/default-video-thumbnail.jpg";
+              e.target.src = "./default-video-thumbnail.jpg";
             }}
           />
           <div className="absolute inset-0 bg-black/0 transition-all duration-300 group-hover:bg-black/20 flex items-center justify-center">
